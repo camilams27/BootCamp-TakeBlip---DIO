@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --darkGreen: #091E19;
+    --purple: #534C7F;
+    --brown: #4A3729;
+    --red: #B32016;
+    --darkOrange:#B16823;
+    --lightBrown:#9A7D55; 
+}
+
+body{
+    background-color: #e9d6bc;
+}
+
+nav, ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav{
+    justify-content: space-between;
+    background-color: var(--purple);
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+}
+ul{
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('https://images.pexels.com/photos/3713476/pexels-photo-3713476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') 50% 20% no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+p{
+    white-space: normal;
+}
+
+#history{
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('https://images.pexels.com/photos/36006/renaissance-schallaburg-figures-facade.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') 50% 20% no-repeat;
+    color: antiquewhite;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#history > p{
+    width: 50vw;
+    white-space: normal;
+}
+
+h1,h2,h3{
+   font-variant: small-caps; 
+}
+
+#work{
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('https://images.pexels.com/photos/4788183/pexels-photo-4788183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') 50% 20% no-repeat;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#work > p{
+    padding-bottom: 5rem;
+}
+
+article, figure{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 20vw;
+}
+
+article > h2{
+    text-align: center;  
+}
+article > h2, h3{
+    text-transform: lowercase;
+}
+
+.works, .works2{
+   display: flex;
+   gap: 2rem;
+}
+
+figure > img{
+    height: 30vh;
+}
+
+figure > pre{
+    font-size: 2vh;
+    width: 20vw;
+}
+
+#work2{
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('https://images.pexels.com/photos/2939793/pexels-photo-2939793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') 50% 20% no-repeat;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#work2 > h2{
+    padding-bottom: 5rem;
+}
