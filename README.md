@@ -10,11 +10,11 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
   
 ####  Learning 🧠🚀 
 - Boas-vindas ao Bootcamp Take Blip Web Developer 🆗
-- Primeiros Passos para aprender a programar ⏩
+- Primeiros Passos para aprender a programar 🆗
 - Lógica de Programação Essencial 🆗
 - Estrutura de dados e Algoritmos 🆗
 - Introdução ao Git & GitHub 🆗
-- Primeiros passos para desenvolvimento web 🟨
+- Primeiros passos para desenvolvimento web ⏩
 - Introdução a criação de websites com HTML5 e CSS3 🆗
 - Construindo páginas para internet com Bootstrap 🆗
 - Recriando a interface da netflix 🆗🟣
