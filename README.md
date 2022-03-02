@@ -14,15 +14,8 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
 - Lógica de Programação Essencial 🆗
 - Estrutura de dados e Algoritmos 🆗
 - Introdução ao Git & GitHub 🆗
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Primeiros passos para desenvolvimento web 🆗
-=======
-- Primeiros passos para desenvolvimento web ⏩
->>>>>>> 566c5952410325165348beabcb1f689889bc5977
-=======
 - Primeiros passos para desenvolvimento web 🆗
->>>>>>> 4c57084870d37b906a11453aafff6e0cbec1144f
 - Introdução a criação de websites com HTML5 e CSS3 🆗
 - Construindo páginas para internet com Bootstrap 🆗
 - Recriando a interface da netflix 🆗⏩
@@ -37,13 +30,8 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
 - Map, Filter e Reduce 🆗
 - Manipulando DOM JS 🆗
 - Desafios JS 🆗
-<<<<<<< HEAD
 - Resolvendo desafios em JS 🆗
 - Construindo jogo de naves ⏩
-=======
-- Resolvendo dsesafios em JS 🆗
-- Construindo jogo de naves 🟨
->>>>>>> 4c57084870d37b906a11453aafff6e0cbec1144f
 - MySQL Trabalhando com tabelas 🟨
 - MySQL Consultas Join 🟨
 
@@ -52,4 +40,3 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
 >Cami 👩🏽‍💻</br> </br>
 ><a href="https://www.linkedin.com/in/camila-silva-8968aa1b3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 ><a href="https://instagram.com/camii.las" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-
