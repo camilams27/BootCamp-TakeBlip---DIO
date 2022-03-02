@@ -26,8 +26,8 @@ const getFilms = async () => {
         idPopUp.addEventListener('click', function(e){
             popUp.style.display = 'flex';
             var image = document.createElement('img');
-            image.src = json[i].image;
-            image.className = "imagePopUp"
+            image.src = json[i].movie_banner;
+            image.className = `imagePopUp${i}`;
             popUp.appendChild(image);
 
             const information = document.createElement('div');
@@ -40,19 +40,50 @@ const getFilms = async () => {
             information.appendChild(title);
             title.innerHTML = titleAPI;
 
+            var titleJ = json[i].original_title;
+            const japR = document.createElement('h4');
+            titleJ.className = "titleJR";
+            information.appendChild(japR);
+            var titleR = json[i].original_title_romanised;
+            japR.innerHTML = `${titleJ} - ${titleR}`;
+
+            var timeAPI = json[i].running_time;
+            var year = json[i].release_date;
+            const time = document.createElement('h5');
+            time.className = "timeFilm";
+            information.appendChild(time);
+            time.innerHTML = `${timeAPI} min -- Release date: ${year}`;
+            
             var descriptionAPI = json[i].description;
             const description = document.createElement('p');
             description.className = "descriptionFilm";
             information.appendChild(description);
             description.innerHTML = descriptionAPI;
 
+            var create = document.createElement('div');
+            create.className = 'createFilm';
+            information.appendChild(create)
+            var producer = json[i].producer;
+            var director = json[i].director;
+            create.innerHTML = `Producer: ${producer} <br/>
+            Director: ${director}
+
+            `
             var buttonClose = document.createElement('button');
-            information.appendChild(buttonClose);
+            popUp.appendChild(buttonClose);
             buttonClose.id = 'closeBtn';
             buttonClose.innerHTML = "X";
             
             buttonClose.addEventListener('click', function(e){
                 popUp.style.display = 'none';
+                image.remove();
+                information.remove();
+                buttonClose.remove();
+
+                //internet explorer não funciona a function remove
+                image.style.display = 'none';
+                information.display = 'none';
+                buttonClose.display = 'none';
             })
             
         })

@@ -192,13 +192,3 @@ a{
 .create > a:hover{
     color: rgb(58, 174, 212);
 }
-
-/* popup */
-.blockFilm{
-    display: flex;
-}
-
-.imgFilmAPI{
-    height: 50vh;
-}
-

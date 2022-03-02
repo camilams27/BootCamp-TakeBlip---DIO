@@ -33,6 +33,17 @@
 
     .principal{
         height: 100%;
+    }
 
+    #popUp{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #closeBtn{
+        position: fixed;
+        top: 10rem;
+        right: 10rem;
     }
 }

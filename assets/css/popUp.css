@@ -4,27 +4,61 @@
     background-color: rgba(0,0,0, .5);
     position: fixed;
     top: 0; bottom: 0; left: 0; right: 0;
+    padding: 10rem;
+    color: antiquewhite;
+    background-color: rgba(0,0,0, .95);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
+    gap: 1rem;
 }
 
 .imagePopUp, .informationPopUp{
-    height: 70vh;
+    height: 50vh;
 }
 
 .informationPopUp{
-    color: antiquewhite;
-    background-color: rgba(0,0,0, .95);
-    padding: 10%;
-    padding-left: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blockFilm{
+    display: flex;
+}
+
+.imgFilmAPI{
+    height: 50vh;
+}
+
+[class^="imagePopUp"], .informationPopUp{
+	height: 50vh;
+    width: 50%;
 }
 
 #closeBtn{
-    height: 2rem;
-    width: 2em;
-    position: fixed;
-    top: 6rem; right: 5rem;
+	border: none;
+	background: none;
+	border-radius: 50px;
+	background-color: rgb(61, 165, 165);
+	color: rgb(199, 195, 188);
+	margin: 10px 10px;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+    height: 5vh;
+    width: 3vw;
+    
+}
+
+#closeBtn:hover{
+	cursor: pointer;
+	background-color: rgb(41, 109, 109);
+	transition: .5s;
+	border: none;
+}
+
+.createFilm{
+    display: flex;
+    padding-top: 2rem;
 }
