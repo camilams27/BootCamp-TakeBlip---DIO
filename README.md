@@ -14,7 +14,11 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
 - Lógica de Programação Essencial 🆗
 - Estrutura de dados e Algoritmos 🆗
 - Introdução ao Git & GitHub 🆗
+<<<<<<< HEAD
 - Primeiros passos para desenvolvimento web 🆗
+=======
+- Primeiros passos para desenvolvimento web ⏩
+>>>>>>> 566c5952410325165348beabcb1f689889bc5977
 - Introdução a criação de websites com HTML5 e CSS3 🆗
 - Construindo páginas para internet com Bootstrap 🆗
 - Recriando a interface da netflix 🆗⏩
