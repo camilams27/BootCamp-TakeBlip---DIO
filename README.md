@@ -31,10 +31,10 @@ Estará disponível em branches e/ou pastas para cada exercício, projeto ou cur
 - Manipulando DOM JS 🆗
 - Desafios JS 🆗
 - Resolvendo desafios em JS 🆗
-- Construindo jogo de naves ⏩
+- Construindo jogo de naves 🆗
 - MySQL - Explorando relacionamentos workbench 🆗
 - MySQL Trabalhando com tabelas 🆗
-- MySQL Consultas Join ⏩
+- MySQL Consultas Join 🆗
 
 
 ### Find me  🌎
